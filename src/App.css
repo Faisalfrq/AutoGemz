@@ -1,0 +1,11 @@
+/* .App {
+  text-align: center;
+} */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("https://cdn.fansshare.com/image/gradientwallpapers/cool-gradient-background-wallpaper-gradient-wallpapers-1904557394.jpg");
+}

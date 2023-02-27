@@ -1,0 +1,32 @@
+{
+  "usedCars": [
+    {
+      "id": 1,
+      "image": "https://build.ford.com/dig/Ford/Mache/2023/HD-THUMB/Image%5B%7CFord%7CMache%7C2023%7C1%7C1.%7C100A...PG1...89J.649.RWD.99M.%5D/EXT/5/vehicle.png",
+      "make": "Ford",
+      "model": "Mustang MACH-E",
+      "year": 2023,
+      "price": 45995,
+      "city": "Rawalpindi",
+      "enginetype": "Diesel",
+      "mileage": 51000,
+      "color": "Black",
+      "transmission": "Automatic",
+      "phone": "03494471667"
+    },
+    {
+      "id": 2,
+      "image": "https://build.ford.com/dig/Ford/Mache/2023/HD-THUMB/Image%5B%7CFord%7CMache%7C2023%7C1%7C1.%7C100A...PG1...89J.649.RWD.99M.%5D/EXT/5/vehicle.png",
+      "make": "Ford",
+      "model": "Mustang MACH-E",
+      "year": 2023,
+      "price": 45995,
+      "city": "Rawalpindi",
+      "enginetype": "Diesel",
+      "mileage": 51000,
+      "color": "Black",
+      "transmission": "Automatic",
+      "phone": "03494471667"
+    }
+  ]
+}

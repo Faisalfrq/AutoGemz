@@ -1,0 +1,16 @@
+const mongoose = require("mongoose");
+const Admin = require("./admin.model");
+const Car = require("./car.model");
+const Feed = require("./feed.model");
+const NewCar = require("./newCar.model");
+const Rent = require("./rent.model");
+const User = require ("./user.model")
+const db = {};
+db.mongoose = mongoose;
+db.car = Car;
+db.feed = Feed
+db.rent = Rent
+db.user = User
+db.newcar = NewCar
+db.admin =Admin
+module.exports = db;

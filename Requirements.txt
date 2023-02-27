@@ -1,0 +1,73 @@
+______________________________________________AUTO GEMZ_________________________________________________
+
+1)Authentication
+	- Sign Up/Register 
+		--USERNAME---check for valid, if exist select new username, invalid characters not allowed
+		--FULLNAME--- Single name is not a fullname or make seprate for first and last name
+		--EMAIL--- check Validation, "@", .com, charcters before @ etc
+		--PASSWORDS--- HASHED, Valid, Must have a number and a character etc
+		--CONFIRM PASSWORD--- must be matching passwords
+		--SECURED--- only the authorized personel can access the application
+	- Login
+		--With Google,Facebook Extra etc (Optional)
+	- Logout
+		-- Logging out will cut off all access to routes and every application functionality
+2)	- Cars
+	-- Car Make, Model, Pictures,Specs
+	--Mileage, Transmission, Fuel type, Engine
+	-- Description Details
+3)Users
+	- Admin
+		--Perform CRUD operations on users 
+		-- Define User roles, CRUD roles
+		-- Basically has the master access
+	- Buyer
+		--Can view Available cars for sale, buy Cars, Contact Seller, and View Details
+		-- Can filter cars by make/model, price, and color etc
+		--Can switch between buying selling, rent your car or rent a car
+	- Seller
+		--can select Post Your add(Fill The Form with your cars information), 
+		--or Select Sell it for me(Resgister your car by filling form, app will sell the car, and deduct commission)
+		--Can switch between buying selling, rent your car or rent a car
+	- Rent A car
+		-- Will Select Rent a car, view cars available for rent ,select ,view details, contact renter
+		-- can switch between buying, selling, rent your car or rent a car
+	- Rent your car
+		-- Will Select Rent your Car and Earn , Fill the form, select the rent per day or time etc
+		-- Can Switch Between buying selling, rent your car or rent a car
+	- Auctioner
+		-- /////////////////////Will Be Decided In the End\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+4)Services
+	- Buying
+		=>Buy Cars, New Cars, used cars=> View Cars items=>Select one Item=>View Details, images, Contact Details=> Contact Seller=> Make a deal
+	- Selling
+		=>Sell your Car=> post an add, sell it for me
+			=>Post an add=> fill details in form=>submit=> wait for the customer to reach out
+			=>Sell it for me=> Register you car with basic details=>submit=>wait for us to get a good deal for you(we will deduct 1% commission)
+	- Renting
+		=>Rent a Car, Rent your Car
+		=>Rent your car=>Fill The form =>Submit=> Wait for a customer=>Make the deal
+		=> Rent a car=> Go through cars available for rent=> Select Car=> View Details => Contact Rentor=> Meet and Get
+	- Bidding
+		--/////////////////////////////__________\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+5) NOTIFICATIONS
+	-FOR ADMIN
+		--Will Get Reports from users
+		-- Will know the number of users and all activity going on 
+	-FOR BUYER
+		-- Will get Notification for contacted sellers
+	-FOR SELLER
+		--Will get notified when buyers reach out
+		-- when the the dealer finds a good buyer for seller
+		-- when the advertisement is posted
+		-- Views on the advertisement per day , if necessary
+	-FOR RENT A CAR(Service Seller)
+		--When a customer reaches out
+		-- rent time period notification (start and end)
+	-FOR RENTER(service Buyer)
+		--When the rent a car finalizes the
+		-- rent time period notification (start and end)
+___________________________________________________________________________________________
+		https://images.pexels.com/photos/3947374/pexels-photo-3947374.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+
+		https://images.pexels.com/photos/2847648/pexels-photo-2847648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2

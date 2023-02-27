@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainSettingDiv{
+    margin-top: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings{
+    width: 50vw ;
+    height: 50vh ;
+    background-color: rgb(206, 204, 204);
+    /* margin-top: 3.8rem; */
+}
+.UserProfileImg {
+    height: 6rem;
+    width: 6rem;
+}

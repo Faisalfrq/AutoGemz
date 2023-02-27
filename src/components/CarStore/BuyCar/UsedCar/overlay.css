@@ -1,0 +1,24 @@
+.bgImage {
+  background-image: url("https://images.pexels.com/photos/8141163/pexels-photo-8141163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.139);
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.holder {
+  background-color: rgba(0, 0, 0, 0.769);
+  height: 90%;
+  width: 95%;
+  color: white;
+  
+}

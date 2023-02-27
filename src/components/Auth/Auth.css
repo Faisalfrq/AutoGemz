@@ -1,0 +1,68 @@
+
+#iconBtn:hover {
+  color: red;
+}
+
+.inputs input[type="email"],
+.inputs input[type="number"],
+.inputs input[type="text"],
+.inputs input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.inputs input[type="email"]:focus,
+.inputs input[type="text"]:focus,
+.inputs input[type="number"]:focus,
+.inputs input[type="password"]:focus {
+  width: 300px;
+  border-color: #2ecc71;
+}
+.cont {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+input[type="file"] {
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 8px;
+  font-size: 17px;
+  color: #b8b8b8;
+}
+.button-wrap {
+  position: relative;
+}
+.filebutton {
+  display: inline-block;
+  margin-left: 3px;
+  margin-top: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: black;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #3498db;
+  border-radius: 24px;
+}
+.filebutton:hover {
+  background-color: rgb(99, 99, 99);
+}

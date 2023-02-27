@@ -1,0 +1,121 @@
+:root {
+  --primary-color: #181b3a;
+  --secondary-color: #01d293;
+  --body-bg: #0b0c28;
+  --card-01-bg: linear-gradient(#ef621c, #e1424e);
+  --card-02-bg: linear-gradient(#01d293, #56c57a);
+  --card-03-bg: #725cff;
+  --card-04-bg: #2884ff;
+  --heading-color: #fff;
+  --small-text-color: #808191;
+  --recommend-car01-bg: #e1dfa4;
+  --recommend-car02-bg: #e3ecf1;
+  --recommend-car03-bg: #f4e3e5;
+}
+
+.card_icon {
+  font-size: 3rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.845);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+  color: unset;
+}
+
+.top_nav {
+  position: fixed;
+  top: 0;
+  left: calc(260px);
+  z-index: 999;
+  background: var(--primary-color);
+  width: calc(100% - 260px);
+  height: 70px;
+}
+.top_nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.top_nav-right {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  justify-content: flex-end;
+}
+.search_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  background: #0b0c28;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search_box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--small-text-color);
+}
+.search_box input::placeholder {
+  color: var(--small-text-color);
+}
+.search_box span i {
+  color: var(--small-text-color);
+}
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  object-fit: cover;
+}
+
+.sidebar {
+  width: 260px;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: var(--primary-color);
+  padding: 0px 30px;
+}
+.sidebar_content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: calc(100% - 5%);
+  margin-top: 50px;
+}
+.sidebar_bottom {
+  height: 20%;
+}
+.nav_link,
+.sidebar_bottom span {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.sidebar_bottom span {
+  color: var(--small-text-color);
+  cursor: pointer;
+  margin-top: -2rem;
+  margin-left: 3.5rem;
+}
+.nav_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.3rem;
+  color: var(--small-text-color);
+  cursor: pointer;
+}
+.nav_link i {
+  color: var(--secondary-color);
+}

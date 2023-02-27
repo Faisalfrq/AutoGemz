@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    --bs-gutter-x: 0 !important;
+}
+.UserDatabg{
+    margin-top: 10vh; 
+    width: 100vw !important;
+    /* margin-top: 3.8rem; */
+}
+
+@media (max-width: 768px) {
+    .textData{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .userName{
+        text-align: center;
+    }
+}
+.rentPosts{
+    position: relative;
+}
+.sellPosts{
+    position: relative;
+}
